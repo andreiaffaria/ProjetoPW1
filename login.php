@@ -1,5 +1,5 @@
 <?php
-include_once 'utilizadores_lib.php';
+include_once 'lib' . DIRECTORY_SEPARATOR . 'utilizadores_lib.php';
 
 $message = '';
 
@@ -17,7 +17,7 @@ if (!empty($_POST)) {
 }
 ?>
 
-<?php include_once 'header.php'; ?>
+<?php include_once 'partials/header.php'; ?>
 
 <div class="row mt-5">
     <div class="col">

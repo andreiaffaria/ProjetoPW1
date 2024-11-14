@@ -1,5 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registar</title>
+</head>
+<body>
 <?php
-include_once 'utilizadores_lib.php';
+include_once 'lib' . DIRECTORY_SEPARATOR . 'utilizadores_lib.php';
+include_once 'partials/menu.php';
 
 $message = '';
 
@@ -38,3 +47,8 @@ if (!empty($_POST)) {
 </form>
 
 <?php if ($message) { echo "<p>$message</p>"; } ?>
+</body>
+</html>
+
+
+

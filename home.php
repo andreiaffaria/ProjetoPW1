@@ -1,13 +1,14 @@
 <?php
-include_once 'utilizadores_lib.php';
+include_once 'lib' . DIRECTORY_SEPARATOR . 'utilizadores_lib.php';
 
-// Verifica se o utilizador está autenticado, caso contrário redireciona para o login
+
 if (!validaSessao()) {
     header('Location: login.php');
     exit;
 }
 
-include_once 'header.php';
+include_once 'partials/header.php';
+include_once 'partials/menu.php';
 ?>
 
 <div class="container mt-5">
@@ -20,3 +21,4 @@ include_once 'header.php';
     </div>
 </div>
 
+<?php include_once 'logout.php'; ?>

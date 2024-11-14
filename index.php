@@ -1,13 +1,12 @@
 <?php
 session_start();
 
-// Redireciona o utilizador para a página inicial dos sócios se já estiver autenticado
 if (isset($_SESSION['nome'])) {
     header('Location: home.php');
     exit;
 }
 
-include_once 'header.php';
+include_once 'partials/header.php';
 ?>
 
 <div class="container mt-5">
