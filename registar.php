@@ -48,11 +48,17 @@
         <label>Data De Nascimento: <input type="date" id="birthday" name="birthday"></label><br>
         <label>Morada: <input type="text" name="password"></label><br>
         <label>Código Postal: <input type="Integer" name="Cp" maxlength="4" size="4"> - <input type="Integer" name="Cp2" maxlength="3" size="1"><br>
-        <label>Localidade: <input type="text" name="password"></label><br>
+        <label for="localidade">Localidade:</label>
+            <select name="localidade" id="localidade" form="select">
+            <option value="pdl">Ponta Delgada</option>
+            <option value="lagoa">Lagoa</option>
+            <option value="arrifes">Arrifes</option>
+            <option value="capelas">Capelas</option>
+            </select><br>
         <label>Email: <input type="text" name="password"></label><br>
-        <label>Sexo: <input type="radio" name="gender" value="male" checked> Male<br>
-                <input type="radio" name="gender" value="female"> Female<br>
-                <input type="radio" name="gender" value="other"> Other<br>
+        <label>Sexo: <input style="20px;" type="radio" name="gender" value="male" checked>Masculino<br>
+                <input type="radio" name="gender" value="female">Feminino<br>
+                <input type="radio" name="gender" value="other"> Outro<br>
         
         
         
