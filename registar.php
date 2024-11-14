@@ -31,7 +31,7 @@ if (!empty($_POST)) {
 }
 ?>
 
-<form action="register.php" method="post">
+<form action="registar.php" method="post">
     <label>Nome de Utilizador: <input type="text" name="username"></label><br>
     <label>Palavra-passe: <input type="password" name="password"></label><br>
     <input type="submit" value="Registar">

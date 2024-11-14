@@ -1,5 +1,5 @@
 <?php
-include_once 'lib' . DIRECTORY_SEPARATOR . 'utilizadores_lib.php';
+include_once 'utilizadores_lib.php';
 
 // Verifica se o utilizador está autenticado, caso contrário redireciona para o login
 if (!validaSessao()) {

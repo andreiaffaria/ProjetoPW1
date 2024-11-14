@@ -61,7 +61,7 @@ if (!empty($_POST)) {
 
 <div class="row justify-content-center mt-3">
     <div class="col text-center">
-        <a href="register.php" class="btn btn-link">Registar Novo Utilizador</a>
+        <a href="registar.php" class="btn btn-link">Registar Novo Utilizador</a>
     </div>
 </div>
 
