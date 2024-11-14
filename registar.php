@@ -43,8 +43,20 @@
     ?>
 
     <form action="registar.php" method="post">
-        <label>Nome de Utilizador: <input type="text" name="username"></label><br>
-        <label>Palavra-passe: <input type="password" name="password"></label><br>
+        <label>Nome: <input type="text" name="username"></label><br>
+        <label>NIF: <input type="text" name="password"></label><br>
+        <label>Data De Nascimento: <input type="date" id="birthday" name="birthday"></label><br>
+        <label>Morada: <input type="text" name="password"></label><br>
+        <label>Código Postal: <input type="Integer" name="Cp" maxlength="4" size="4"> - <input type="Integer" name="Cp2" maxlength="3" size="1"><br>
+        <label>Localidade: <input type="text" name="password"></label><br>
+        <label>Email: <input type="text" name="password"></label><br>
+        <label>Sexo: <input type="radio" name="gender" value="male" checked> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="other"> Other<br>
+        
+        
+        
+        
         <input type="submit" class="btn btn-primary btn-lg mx-2" value="Registar">
     </form>
 

@@ -7,6 +7,7 @@ if (isset($_SESSION['nome'])) {
 }
 
 include_once 'partials/header.php';
+include_once 'partials/menu.php';
 ?>
 
 <div class="container mt-5">
